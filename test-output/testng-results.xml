@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-29T16:55:37 IST" name="Default suite" finished-at="2023-03-29T16:55:59 IST" duration-ms="22706">
+    <groups>
+    </groups>
+    <test started-at="2023-03-29T16:55:37 IST" name="Default test" finished-at="2023-03-29T16:55:59 IST" duration-ms="22706">
+      <class name="sakhiya.test.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:37 IST" name="launchApplication" finished-at="2023-03-29T16:55:39 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:39 IST" name="submitOrder" data-provider="getData" finished-at="2023-03-29T16:55:43 IST" duration-ms="3584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Password@123, email=gopal@scaletech.xyz}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:43 IST" name="TearDown" finished-at="2023-03-29T16:55:43 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:43 IST" name="launchApplication" finished-at="2023-03-29T16:55:44 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:44 IST" name="submitOrder" data-provider="getData" finished-at="2023-03-29T16:55:47 IST" duration-ms="3434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Password@123, email=scaletechqa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:47 IST" name="TearDown" finished-at="2023-03-29T16:55:48 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:48 IST" name="launchApplication" finished-at="2023-03-29T16:55:52 IST" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:52 IST" name="OrderHistoryTest" data-provider="getData" finished-at="2023-03-29T16:55:53 IST" depends-on-methods="sakhiya.test.SubmitOrderTest.submitOrder" duration-ms="671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Password@123, email=gopal@scaletech.xyz}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:53 IST" name="TearDown" finished-at="2023-03-29T16:55:53 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:53 IST" name="launchApplication" finished-at="2023-03-29T16:55:59 IST" duration-ms="5224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:59 IST" name="OrderHistoryTest" data-provider="getData" finished-at="2023-03-29T16:55:59 IST" depends-on-methods="sakhiya.test.SubmitOrderTest.submitOrder" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Password@123, email=scaletechqa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:sakhiya.test.SubmitOrderTest@14dd9eb7]" started-at="2023-03-29T16:55:59 IST" name="TearDown" finished-at="2023-03-29T16:55:59 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- sakhiya.test.SubmitOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
